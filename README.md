@@ -87,3 +87,38 @@
 * Manage stress.
 
 
+### Site Reliability Engineering: Anti-patterns in Everyday Life and What They Teach Us
+(Jennifer Petoff, Google Ireland)
+
+* SRE patterns:
+* * Users should never notice outage before you
+* * Eliminate classes of errors rather than point fixes
+* * Don't feed machines with human toil
+* * Faiure is an opportunity to improve
+* Coffee machine example:
+* Set and meet SLOs aligned with happiness.
+* Don't overload -> cascading failure.
+* Avoid Ops overload -> don't overload people.
+* Actively plan and manage serving capacity
+* Hotel lock example:
+* Incident management framework:
+* * Access impact, mitigate and verify, debug, short term fix, underlying causes, long term fix, resolved.
+* * Impact - High risk - Low risk - Resolved.
+* "Human" errors are really systems problems (can't fix people, but can fix systems to make people do better).
+* Lack of ownership -- empower teams to mitigate and resolve issues.
+* Case for blamenessless:
+* * Failure happens
+* * Embrace failure to improve MTTD and MTTR
+* * Proactively address failure -- more robust systems
+* Takeaways:
+* * Reap a return on the unplanned investment by learning
+* * It's never human error
+
+
+
+
+
+
+
+
+
