@@ -238,10 +238,30 @@
 ### I Have an SLO. Now What?
 Alex Hidalgo, Alex Hidalgo
 
-* How to determine reliability over time
-* Error budgets for reporting
-* Have better conversations, leading to better decisions(!)
+* What to do with all the data we have? (Logs, metrics, traces) Setup SLOs
+* The reliability stack:
+  * SLIs (service level indicator): Measurements from user perspective (measure what customers actually need from us)
+  * SLOs: Target percentages for SLIs (how often do they show correct, pre-done math)
+* 100% isn't reasonable, it's too expensive to even try
+* Error budgets: Measurements over SLOs over time
+* Measure service reliability!
+* Service has one job: Do what the user needs it to do.
+* Using error budgets (this is outdated!):
+  * Error budget surplus -- ship features
+  * Error budget exceeded -- stop, fix reliability
+* What to do with your SLO data:
+  * Maintain balance between shipping and fixing reliability
+  * Determine focus of project work (reliability improvements are features, not everyone owns the code they own) -- measure better SLI is project work. So is picking better SLO thresholds. Examine measurements often. They could be wrong!
+  * Are users happy? Align error budgets to user happiness.
+  * Examine your risk factors. Determine biggest risks according to burning error budgets. Figure out when you're unreliable (proactively improve reliability).
+  * Justify experimentation / chaos engineering. When do you start burning from error chart? Use error budget to experiment.
+  * Schedule load tests, stress tests, and blackholes. Where on the curve does stuff break?
+  * Just turn stuff off. Burn error budget to get a feeling of what fails when components are down.
+  * Do nothing. Nothing at all. SLOs are data, not mandate (you don't need to do anything)
+  * Report your service reliability in a more meaningful way. (error budgets over tickets and mttX)
+  * Have better conversations, leading to better decisions(!)
 * Everything is about humans and data driven decisions
+
 
 ### Fast & Simple: Observing Code & Infra Deployments At Honeycomb
 (Liz Fong-Jones, honeycomb.io)
@@ -293,10 +313,53 @@ Alex Hidalgo, Alex Hidalgo
 * Sleep easily at night is the top priority in the company
 
 
+### Continuous Delivery for Machine Learning
+(Adarsh Shah, Consultant)
 
+* ML code is a small part of the machine learning application system (feature extraction, analaysis, etc etc)
+* Data management - experimentation - Production
+* Challenges unique to ML:
+  * Data management
+  * Experimentation (lots of CPU for training models)
+  * Production deployment (offline/online prediction, monitoring/alerting)
+* Solutions
+  * Data management: Data pipelines (automated), Versioned datasets
+  * Experimentation: CI (training code)
+  * Production deployment: CI (application code), smoke tests
 
 
 ### Six Categories of Monitoring in the DevOps Pipeline
-Hasan Yasar, CMU
+(Hasan Yasar, CMU)
 
-* 
+* metrics logs reports -> data
+  * devops metrics
+* monitoring -- architecture, metrics to dashboard, 
+* Logs is a specific event. Metrics is a measurement at a time.
+* Pipelines (flow) generates a lot of data.
+* We want to quantify impact of investment in software delivery
+* Devops metrics pyramid
+* Guidelines:
+  * avoid relying on single metric
+  * look for trends, outliers and level shifts -- not only averages
+* when to measure:
+  * bug report submitted
+  * change request submitted
+  * code commit
+  * build progress
+  * test results
+  * deployment activities
+  * operation failure and recovery
+  * application usage and latency
+* metrics categories
+  * productivity (deployment freq)
+  * reliability (mttr, mttd)
+  * quality (failed deployments, number of tickets)
+  * security (change req)
+  * operations
+* monitoring: collect, interpret, and make action from information gathered
+* types of monitoring: development (devops process), usability, perofrmance, security, business (kpi), functional (use-cases how are capabilities working)
+* development: build failures, testing failures, issue monitoring
+* operations: outage monitoring, resource usage
+* security: vuln monitoring
+
+
