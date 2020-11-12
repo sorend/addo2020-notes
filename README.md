@@ -154,3 +154,36 @@
   * extend existing gateway (k8s operators integrate)
   * deploy an in-cluster edge stack. 
  
+### CI and CD for Documentation
+(Olivier Jacques & Laurent Gil, DXC Technology)
+
+* The quest for great documentation.
+* Widely used: microsoft, github, gitlab, aws.
+* fast, secure, cheap (static sites)
+* easier to contribute (git flow)
+* battle tested, engineered (automated tests, different outputs - sites/pdf/whatever)
+* monitoring (analytics)
+* challenges: diagrams (what changes?), broken links, publishing, DRY, common voice, common look/feel.
+* CI: Spell checking, approved acronyms, one voice, dead links.
+* CD: automate publishing
+* CI/CD tools for documentation:
+* Authoring: Markdown
+  * Editors: Intellij/VSCode/Eclipse/etc
+  * Markdownlint, Draw.io (drawings), PlantUML (diagrams as code), Marp (slides)
+  * Github Codespaces or GitPod -- edit directly from browser, make it easy for tech editors (no local install), shared extensions.
+* Pick a tool:
+  * Jekyll -- not good experience (-)
+  * Hugo -- powerful, blazing fast (/)
+  * Marp -- slides as code in markdown
+  * MkDocs + material theme (/)
+* Orchestrating:
+  * GitHub Actions, GitLab CI, Jenkins, AWS Code Pipeline, AzureDevops
+* Linter: github super-linter, markdownlint (vscode plugin)
+* Spell-checker: spellcheck-github-actions, spellcheck-cli, vscode code-spell-checker extension
+* Link checker: markdown-link-check
+* Style/voice: Vale
+* Hosting: Github pages, Gitlab pages, Netlify, S3 bucket
+* Making it easy: Github templates, Gitlab project templates
+
+  
+  
