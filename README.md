@@ -185,5 +185,21 @@
 * Hosting: Github pages, Gitlab pages, Netlify, S3 bucket
 * Making it easy: Github templates, Gitlab project templates
 
-  
+### Your own Kubernetes Operator: Not Only in Go
+(Nicolas Fränkel, Hazelcast)
+
+* Controllers: Control loops that modifies state.
+  * Deployment controller, Job controller, etc.
+  * Out-of-the-box controllers are in the control-plan.
+  * Custom controllers can run anywhere (inside or outside cluster).
+* Operator: Application specific controller.
+  * Extends kubernetes API with CRD, and controls the CRD.
+  * Operator is controller that manages a CRD.
+  * Talks to API server, REST based
+  * Mostly written in Go (K8s is written in Go, there is the operator-sdk in Go)
+* Using fabric8 kubernetes-client + GraalVM to make small image.
+(was missing talk about dealing with CRDs in fabric8 kubernetes-client)
+  * 
+
+
   
