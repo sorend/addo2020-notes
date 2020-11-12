@@ -202,4 +202,12 @@
   * 
 
 
-  
+### Serverless databases: the good, the bad, and the ugly
+(Renato Losio, Funambol)
+
+* Aurora database, mysql "automatic" scaling
+* boto3
+* Elastic scaling databases
+* Pay for what you need (bad queries -> you pay more until you fix the issue)
+
+
