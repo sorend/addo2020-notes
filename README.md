@@ -43,6 +43,34 @@
 * Local optimization and the urgency paradox (measure the full value-stream, not only the development section where things are pushed to go fast).
 * Value vs non-value adding activities. Goal eliminate, optimize. Use value-stream mapping technique.
 
+### DevOps in a highly regulated environment - Aiming high like a Unicorn in skates
+(Marc Cluet, Ukon Cherry Ltd)
 
+* Governance, risk and control: Approval process crafted to ensure compliance.
+* All data tightly classified and controlled. Long process to ensure we don't do anything silly (design/technical/regulatory forums).
+* Challenges: No confident in Agile/Devops. Upskilling required. Maintain levels of controls. Increase speed of innovation.
+* We still want to reap benefits of cloud.
+* DevOps about people, process and tools. Each impact/creates tension to the others.
+* People: Experts help accelerate.
+* Change through metrics: DORA.
+* Create CCoE
+* Agile governance: Controls are business requirements, need to ensure we accelerate controls.
+* Continuous governance: Controls as code, governance as code, policy as code.
+* Tooling: Open Policy Agent, Hashicorp Sentinel.
+* Shift left security: Zero trust security in cloud, code security checks in pipeline, dependency checks in pipeline, external dependencies scanned.
+* Platform security: Platform releases at intervals, pentest of any new platform release, everybody required to be on new platform, anything killing for more than 3 months killed and refreshed.
+* Tools: Everything must be CI. Deployment also auditable that needs to align with governance.
+* Tools: Everything is an API. Follow twelve-factor app rules. Restful interfaces always secured. Short lived sessions.
+* It's possible for big/regulated to transform to Agile+Devops
+* Takes time. Need focus on people first, then process+tools. Use technology as catalyst for change. Upskill people for happiness and retention.
+
+
+
+
+
+### Bullet-Proof Coding : Adaptive Collaboration for Resilience
+(Anton Weiss, Otomato Software)
+
+* 
 
 
