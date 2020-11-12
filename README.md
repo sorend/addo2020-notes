@@ -363,3 +363,41 @@ Alex Hidalgo, Alex Hidalgo
 * security: vuln monitoring
 
 
+### How to Scale Your Company's Security
+(Clint Gibler, r2c)
+
+* Distilled insights from surveying lots of companies
+* Mindsets and principles
+  * automate as much as possible
+  * guardrails not gatekeepers (minimize no's)
+  * prefer high-signal low-noise tools and alerting (better to miss something than drown)
+  * developers are your customers (build useful features, telemetry logging, etc)
+  * self-service security (tools and services than can be used without security taems interaction)
+* Chose how to invest time: Now, short-term, long-term (yes)
+* Focus: Is X better use of time than Y?
+* Fundamentals: vuln mgnmnt (know current state, minimize friction for devs, track in same system as you usually work/workflow -- jira), cont. scanning.
+* data driven bug bounty
+  * open vulnerabilities by prio over time
+  * open vulns by subteam and priority
+  * bug bounty cost per vuln class (need bug bounty program)
+* cont scanning:
+  * scan new code with static and dynamic tools
+  * dracon 
+  * scan unit PRs
+  * show tool findings within PR
+  * capture metrics
+  * go for linting/AST
+* asset inventory
+  * what do you own and how do they connect?
+  * use the asset inventory to answer questions (which servers are exposed through internet?)
+  * use asset inventory for shortening vuln window, by easier finding out who has to fix stuff.
+* security engineering: implement libraries/wrappers to take care of classes of security problems.
+  (e.g. library to call SQL which takes care of SQL injections)
+* Automating least priviledge
+* Enforce invariants (alert on things that should never be true, e.g. auto-shutdown if we can access internet, or, alert if we can access everything on internet)
+  * what should always or never be true in your environment
+  * which can we programatically alert on
+  * and automatically take action on?
+  
+
+
