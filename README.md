@@ -153,10 +153,4 @@
   * Deploy additional kubernetes api gateway. Below normal gateway.
   * extend existing gateway (k8s operators integrate)
   * deploy an in-cluster edge stack. 
-  
-
-
-
-
-
-
+ 
