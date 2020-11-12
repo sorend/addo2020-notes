@@ -235,3 +235,68 @@
   * KISS: Source -> Policy rule -> Destination
   * Standardized: Service mesh interface (SMI)
   
+### I Have an SLO. Now What?
+Alex Hidalgo, Alex Hidalgo
+
+* How to determine reliability over time
+* Error budgets for reporting
+* Have better conversations, leading to better decisions(!)
+* Everything is about humans and data driven decisions
+
+### Fast & Simple: Observing Code & Infra Deployments At Honeycomb
+(Liz Fong-Jones, honeycomb.io)
+
+* How to ship at honeycomb:
+* Instrument as we code
+* Functional and visual testing
+* Design for feature flag deployment
+* Automated integration
+* Human PR review
+* Green button merge
+* Auto-updates, rollbacks and pins
+* Observe behaviour in production
+  * Prod: customers observe data
+  * Dogfood: observes prod
+  * SLO adoption: page views
+  * Kibble observes dogfood
+* That's how 12 engineers deploys 12 times/day
+* Tips:
+  * Start with lead-time
+  * Deploy frequency goes up
+  * Change fail rate goes down
+  * time to restore goes down
+  * 0.1% fail-rate
+* What about infrastructure?
+  * Infrastructure empowers products
+  * Kubernetes isn't the goal: Reliability and simplicity is
+  * Everyone starts somewhere
+  * Automate painful parts
+  * Keep enviornment clean
+* Repeatable infrastructure with code
+* Centralize state and locking
+* Diff and release in browser
+* Remote run from git
+* Deploy changes incrementally
+* Feature flags for infra!
+  * Ephemeral fleet and autoscaling
+  * Quarantine bad traffic
+* Scaling challenges
+  * Team size has doubled
+  * Commit frequency is up
+  * Consumer traffic is pouring in
+  * Bottlenecks
+  * Releases not granular enough
+  * Manual rollbacks are too slow to maintain SLOs
+* SLOs:
+  * 99% Store incoming telemetry
+  * 99% Default
+* Sleep easily at night is the top priority in the company
+
+
+
+
+
+### Six Categories of Monitoring in the DevOps Pipeline
+Hasan Yasar, CMU
+
+* 
