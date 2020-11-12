@@ -211,3 +211,27 @@
 * Pay for what you need (bad queries -> you pay more until you fix the issue)
 
 
+### Service Mesh Past, Present, and Future with Envoy Proxy and WebAssembly
+(Idit Levine, Solo.io)
+
+* From monolity to microservices -> the network is the queen of the cloud.
+* Challenges:
+  * Routing: Make A talk to B (traffic control, resiliance)
+  * Security: Make A talk to B securely (root cert, mtls, policy)
+  * Observability: A talks to B1, B2, B3, you need to be able to observe it (metrics, logs)
+* From: library / application specific routing/security
+* To: Network abstraction: Service mesh: Separate operation code from business logic in separate layers.
+* How: Sidecars to your service which setups the routing, security, observability (it's a proxy, Envoy)
+  * Control plane (envoy config)
+  * Envoy (data plane)
+  * Service
+* Service mesh challenges:
+  * Hard to tell which is best
+  * Complicated on-boarding
+  * Different APIs
+* Contendors: Linkerd, nginx, consul, istio, kuma, open-service-mesh, mæsh
+  * Some are built on top of Envoy, some are not.
+* Supergloo: API on top of existing meshes.
+  * KISS: Source -> Policy rule -> Destination
+  * Standardized: Service mesh interface (SMI)
+  
