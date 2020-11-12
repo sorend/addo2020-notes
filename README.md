@@ -115,7 +115,45 @@
   * It's never human error
 
 
+### The Past, Present, and Future of Cloud Native API Gateways
+(Daniel Bryant, Ambassador Labs)
 
+* Edge: Boundary between data center and your users.
+* Thesis: Evolution of edge has been driven by app architecture and technology.
+* History:
+  * 90s: Hardware LB: HA/Scalability.
+  * 00s: Nginx/HAProxy: HA/scalaility (lower cost).
+  * 05s: Ajax -- Application Delivery Controller (ADC). HA + application acceleration. SSL offload, caching, compression, LB.
+  * 10s: API gateway 1st gen. Expose APIs ("api management"), L7 routing, publishing, dev portal, analytics, monetization.
+  * 15s: API gateway 2nd gen. ADC, API Gateway, Monolith, Mini-services: Centralize cross-cutting app concerns, Authentication, rate limiting, monitoring, routing.
+* Building cloud-native applications: Microservices, built/released/scaled independently.
+  * App Architecture: Spectrum of services.
+  * Different locations: K8s/Vms/FaaS
+  * Different protocols: gRPC, http,websockets, tcp
+  * different load-balancing: Sticky sessions, round robin.
+  * Different authentication requirements
+* Cloud gateway neesd:
+  * Need API gateway management stuff.
+  * Need ADC-like traffic management
+  * Real time service discovery
+* Microservices lead to even bigger change:
+  * "You build it, you run it." (from code to production)
+* Workflow: Full cycle development
+* Stack self-service tooling, all backed by specialists:
+  * Build tools
+  * Deployment pipelines
+  * Metrics and alerts
+  * Insights tools
+* Dev teams use this "platform" self services to optimize their workflow.
+* Thesis: The future evolution of the edge will be drive by applicaiton architecture, technology and workflow.
+* Two biggest challenges with k8s and edge:
+  * Scaling edge management - more things at the edge, changes to the edge becomes a bottleneck.
+  * Supporting diverse edge requirements.
+* Strategies for Edge with Kubernetes
+  * Deploy additional kubernetes api gateway. Below normal gateway.
+  * extend existing gateway (k8s operators integrate)
+  * deploy an in-cluster edge stack. 
+  
 
 
 
