@@ -71,6 +71,19 @@
 ### Bullet-Proof Coding : Adaptive Collaboration for Resilience
 (Anton Weiss, Otomato Software)
 
-* 
+* Solitary coding != collaborative coding.
+* Collaboration = communication + coordination + alignment.
+* Colabboration is inversely proportional to scale.
+* Promise theory: publish intentions in form of promises.
+* Promises != executive commands.
+* Adapt to a rate of unkept promises.
+* Resilience: "how a system bends instead of breaking."
+* Careless engineering helps to build resilient systems.
+* Build resilient teams (teams that can adapt to new situations): Diversity, sharing.
+* Efficient != resilient.
+* Dialogue: Different form of conversation. No judgement or regulation.
+* Empathy: Understand other teams. Shadowing.
+* Championship. Champions promoteDevOps.
+* Manage stress.
 
 
