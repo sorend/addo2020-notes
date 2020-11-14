@@ -437,8 +437,10 @@ Alex Hidalgo, Alex Hidalgo
   * Can the solution be automated? (switch what is triggering the alert to the automation?)
   * Is the solution permanent? (condition does not exist anymore, delete it)
   * How urgently was a solution needed? (adjust if too severe, or not severe)
-* 
-
+* Rules of engagement:
+  * When to ping
+  * When to call
+  * Response-SLAs depending on media (email, etc)
 
 
 
