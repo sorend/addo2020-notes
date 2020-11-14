@@ -1,6 +1,27 @@
 
 # All Day Devops 2020 notes
 
+   * [All Day Devops 2020 notes](README.md#all-day-devops-2020-notes)
+      * [Sessions](README.md#sessions)
+         * [Ask me anything keynote: CI/CD](README.md#ask-me-anything-keynote-cicd)
+         * [Are we really moving faster? How visualizing flow changed the way we work](README.md#are-we-really-moving-faster-how-visualizing-flow-changed-the-way-we-work)
+         * [DevOps in a highly regulated environment - Aiming high like a Unicorn in skates](README.md#devops-in-a-highly-regulated-environment---aiming-high-like-a-unicorn-in-skates)
+         * [Bullet-Proof Coding : Adaptive Collaboration for Resilience](README.md#bullet-proof-coding--adaptive-collaboration-for-resilience)
+         * [Site Reliability Engineering: Anti-patterns in Everyday Life and What They Teach Us](README.md#site-reliability-engineering-anti-patterns-in-everyday-life-and-what-they-teach-us)
+         * [The Past, Present, and Future of Cloud Native API Gateways](README.md#the-past-present-and-future-of-cloud-native-api-gateways)
+         * [CI and CD for Documentation](README.md#ci-and-cd-for-documentation)
+         * [Your own Kubernetes Operator: Not Only in Go](README.md#your-own-kubernetes-operator-not-only-in-go)
+         * [Serverless databases: the good, the bad, and the ugly](README.md#serverless-databases-the-good-the-bad-and-the-ugly)
+         * [Service Mesh Past, Present, and Future with Envoy Proxy and WebAssembly](README.md#service-mesh-past-present-and-future-with-envoy-proxy-and-webassembly)
+         * [I Have an SLO. Now What?](README.md#i-have-an-slo-now-what)
+         * [Fast &amp; Simple: Observing Code &amp; Infra Deployments At Honeycomb](README.md#fast--simple-observing-code--infra-deployments-at-honeycomb)
+         * [Continuous Delivery for Machine Learning](README.md#continuous-delivery-for-machine-learning)
+         * [Six Categories of Monitoring in the DevOps Pipeline](README.md#six-categories-of-monitoring-in-the-devops-pipeline)
+         * [How to Scale Your Company's Security](README.md#how-to-scale-your-companys-security)
+         * [Sensory Friendly Monitoring: Keeping the Noise Down](README.md#sensory-friendly-monitoring-keeping-the-noise-down)
+         * [SLO's: You're missing the point!](README.md#slos-youre-missing-the-point)
+         * [Towards Continuous Auditing](README.md#towards-continuous-auditing)
+
 
 ## Sessions
 
