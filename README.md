@@ -496,4 +496,47 @@ Alex Hidalgo, Alex Hidalgo
 ### Towards Continuous Auditing
 (Dan Petit, ServiceMaster)
 
-*
+* How audits work: Upfront, revisited periodically. Define controls, processes, policies, procedures etc in the organisation.
+* Key area: Change management where traditional practices are impacted substantially by CI/CD.
+* Traditional audits:
+  * Manual processes, time consuming, expensive.
+  * After-the-fact. Findings are far away from when things happened. (shift left, how could we find it closer to it happened?)
+  * Depends on attestations (opinions) from people as evidence rather than verifiable facts.
+  * Rely on evidence sampling, which is incomplete.
+  * In typical change management: Approvers are far removed from actual work. (more risk means more ignorant people to sign off). (problem is people who add no value are in the way of getting things into production).
+* Does not align very well with devops culture (friction, leads to slow down/hinderance, leads to ignore/challenge processes).
+  * Autonomy: People are more decoupled/decentralized. Governance is harder.
+  * Pace: Processes designed things to change yearly/monthly are not suitable for things where changes happens all the time.
+  * Automation: Many controls (and processes and procedures) are designed to manage people-behaviour. With lots of automation, practices are not appropriate.
+  * Documentation: Relying on written documentation/paperwork as evidence is troublesome.
+  * Change management: Traditional CM processes slow down things to favor alignment.
+* Towards continuous auditing
+  * Drive "compliant behaviour", so systems are already secure and compliant.
+  * Want compliance to be a continuous thing.
+* Extensive automation means potential for rich data:
+  * PR: Was there an approval, how were the unit tests, was the code security scanned, the images, What JIRA ticket drove the change. (commits, finally deployments).
+  * Data available in real time, and provides detailed view of what happened, rather than attestation that someone said they did it.
+  * Pipelines can be configured to allow system changes to be merged (and deployed) only if they pass peer review, and pass all pipeline tests. Creating gates in real time that prevents failing an audit.
+* Problem: Teams involved in Devops do not care about audit and compliance -- must engage devops and compliance teams early.
+* Item1: Approach problem differently: Empower those close to the problem to determine the compliance. Making process streamlined.
+* Item2: Leverage consistent, secure, pipelines.
+  * Ensure that: All critical systems get a robust pipelin, that saves all the required data.
+  * Any validations needed for compliance are automatically performed by pipelines: Non-compliant changes cannot pass.
+  * Security of pipelines is solid. Must be able to trust data from them without hesitation.
+* Item3: Use peer code review and PRs.
+  * Get rid of "management" receipts. They slow down, and are a waste of time. Move seperation of duty to people in peer review.
+* Item4: Make sure data is transparent.
+  * Insist that all pipeline output is saved and readily available, even from ephemeral environments.
+  * Use data to create rich on-demand reports and dashboards: See everything, not just samples, instantly collect without inconvenience, automate audit checks (actually find and visualize outliers for example).
+  * Get complete, timely answers to everything auditor can ask: What changed? Business requirement drove the change? Did every change have approval? Did change pass quality gates?
+  * High tranparency helps build trust.
+* Question legacy procedures/controls. Collaborate with IT/auditors. 
+
+
+### The One (Pipeline)
+(German Rodriguez, H-E-B)
+
+
+
+
+
