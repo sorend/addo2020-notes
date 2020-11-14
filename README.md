@@ -2,7 +2,7 @@
 # All Day Devops 2020 notes
 
 
-## Keynotes
+## Sessions
 
 ### Ask me anything keynote: CI/CD
 (Cloudbees + HSBC engineers)
@@ -17,11 +17,7 @@
 * How do you think about releasing code?
 * How to convince upper management? Customer value stream + reduce turmoil.
 * Champions are required, to drive progress.
-
 * Set a goal for yourself. Start small. Measure everything. You have to do it. Build community around it. Make it public (advertise it).
-
-
-## Sessions
 
 ### Are we really moving faster? How visualizing flow changed the way we work
 (Roman Pickl, Elektrobit)
