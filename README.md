@@ -476,4 +476,7 @@ Alex Hidalgo, Alex Hidalgo
 * Game days: Focused chaos engineering days. Red/blue team in security. 
 
 
+### Towards Continuous Auditing
+(Dan Petit, ServiceMaster)
 
+*
