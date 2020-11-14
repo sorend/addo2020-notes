@@ -399,5 +399,46 @@ Alex Hidalgo, Alex Hidalgo
   * which can we programatically alert on
   * and automatically take action on?
   
+### Sensory Friendly Monitoring: Keeping the Noise Down
+(Quintessence Anx, PagerDuty)
+
+* Lots of notifications, we feel overloaded. In own life, put headphones on.
+* Buries important/high sev alerts in a sea of low prio notifications -- the people who neede to be notified wont be.
+* Let's find a happy medium for high sev alerts.
+* Consider: the cost of noise -- your brain on alerts.
+* Bubble burst for the problem you were building -- simple questions interrupted costs ~25 min (study shows)
+* Costs quality.
+* Not possible to compensate for the interruption, does not depend on the problem "complexity"
+* Be aware, not overwhelmed:
+  * Determine the sources of noise
+  * Categorize the types of noise.
+  * Channel noise into productive flow
+  * Create a routine to clear clutter
+* Sources of noise: email, tickets, slack, PRs, humans, etc. (you're the source of your noise)
+* How often do you check mail, etc....?
+* Communication boundaries:
+  * Setting time to focus, including friends and family (e.g. create focus-time for yourself)
+  * Define "relevant emergency"
+  * Set reasonable expectations for yoruself and others.
+* What about external sources:
+  * Categorize your noise (severity, false positives, false negatives, fragility, frequency). Fix it!
+* Noise flow:
+  * What needs to be known
+  * who needs to know it
+  * how soon should they know it
+  * how should they be notified
+  * Be specific in alerting, do not train people to ignore notifications
+* Re-evaluate redundancy (e.g. slack is down, can we dynamically re-route the notifications to email/etc)
+* Resilient noise builds trust. Silence is artificial (why is there no notifications?)
+  * How reliable are your services? How much notification duplication is needed?
+* Keep alerts relevant: For every alert triggered ask: 
+  * Was it needed? (if not, delete it)
+  * How was the incident resolved? 
+  * Can the solution be automated? (switch what is triggering the alert to the automation?)
+  * Is the solution permanent? (condition does not exist anymore, delete it)
+  * How urgently was a solution needed? (adjust if too severe, or not severe)
+* 
+
+
 
 
