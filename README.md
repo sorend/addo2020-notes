@@ -443,4 +443,37 @@ Alex Hidalgo, Alex Hidalgo
   * Response-SLAs depending on media (email, etc)
 
 
+### SLO's: You're missing the point!
+(Jason Yee, Gremlin)
+
+* Execs say company depend on innovation, most innovations fail, how to successfully innovate?
+* SLAs: Service level agreements (contracts, guarantees)
+* SLOs: Service level objectives (tighter threshold so you don't run into breaking SLAs)
+* SLIs: Service level indicators (what signals can we look for, we're functioning but not performant)
+* Example: 
+  * SLA: 90% web requests latency <500ms over a month or customer gets money back.
+  * SLO: 95% web requests latency <500ms over a month
+  * SLI: 95% web requests latency <500ms over a month (what we monitor for)
+* Missing the point if only focus on reliability -- it's about error budgets!
+* Error budgets:
+  * Embracing and managing risk
+  * what to do with the 5% from example above (100% perfect - 95% the SLO = 5%)
+* Innovate!
+* Don't spend all time on reliability. Use Error budget for innovating.
+* How to innovate successfully?
+  * -Google: 20% rule (100% + 20% = 120%)-
+  * rather: How to successfully experiment?
+  * Do the least amount of work, to get the most amount of information
+* Keys to successful experimentation:
+  * validate assumptions (hypothesis)
+  * learning/reducing unknowns
+  * improving what exists
+  * failing frugally
+* How to spend your error budget frugally:
+  * Don't spend it on unplanned incidents (improve mttxs, ensure good monitoring and alerting, latency, errors, traffic, saturation. practice incident response, update documentation and runbooks)
+  * Practice chaos engineering (learn about weaknesses in the systems, validate our model of how the system works, prepare for real incidents)
+  * Implement feature flags (expose new features/experiments iwth select group of users, limit blast radius of failures, experiment just enough to get usable data)
+* Game days: Focused chaos engineering days. Red/blue team in security. 
+
+
 
