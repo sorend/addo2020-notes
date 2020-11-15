@@ -131,7 +131,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
   * Users should never notice outage before you
   * Eliminate classes of errors rather than point fixes
   * Don't feed machines with human toil
-  * Faiure is an opportunity to improve
+  * Failure is an opportunity to improve
 * Coffee machine example:
 * Set and meet SLOs aligned with happiness.
 * Don't overload -> cascading failure.
