@@ -21,6 +21,9 @@
          * [Sensory Friendly Monitoring: Keeping the Noise Down](README.md#sensory-friendly-monitoring-keeping-the-noise-down)
          * [SLO's: You're missing the point!](README.md#slos-youre-missing-the-point)
          * [Towards Continuous Auditing](README.md#towards-continuous-auditing)
+         * [The One (Pipeline)](README.md#the-one-pipeline)
+         * [How to Build Better Software with the Scientific Method](README.md#how-to-build-better-software-with-the-scientific-method)
+         * [Our DevOps Journey is Incomplete without Data](README.md#our-devops-journey-is-incomplete-without-data)
 
 
 ## Sessions
@@ -169,8 +172,8 @@
 * Strategies for Edge with Kubernetes
   * Deploy additional kubernetes api gateway. Below normal gateway.
   * extend existing gateway (k8s operators integrate)
-  * deploy an in-cluster edge stack. 
- 
+  * deploy an in-cluster edge stack.
+
 ### CI and CD for Documentation
 (Olivier Jacques & Laurent Gil, DXC Technology)
 
@@ -216,7 +219,7 @@
   * Mostly written in Go (K8s is written in Go, there is the operator-sdk in Go)
 * Using fabric8 kubernetes-client + GraalVM to make small image.
 (was missing talk about dealing with CRDs in fabric8 kubernetes-client)
-  * 
+  *
 
 
 ### Serverless databases: the good, the bad, and the ugly
@@ -251,7 +254,7 @@
 * Supergloo: API on top of existing meshes.
   * KISS: Source -> Policy rule -> Destination
   * Standardized: Service mesh interface (SMI)
-  
+
 ### I Have an SLO. Now What?
 Alex Hidalgo, Alex Hidalgo
 
@@ -350,7 +353,7 @@ Alex Hidalgo, Alex Hidalgo
 
 * metrics logs reports -> data
   * devops metrics
-* monitoring -- architecture, metrics to dashboard, 
+* monitoring -- architecture, metrics to dashboard,
 * Logs is a specific event. Metrics is a measurement at a time.
 * Pipelines (flow) generates a lot of data.
 * We want to quantify impact of investment in software delivery
@@ -399,7 +402,7 @@ Alex Hidalgo, Alex Hidalgo
   * bug bounty cost per vuln class (need bug bounty program)
 * cont scanning:
   * scan new code with static and dynamic tools
-  * dracon 
+  * dracon
   * scan unit PRs
   * show tool findings within PR
   * capture metrics
@@ -415,7 +418,7 @@ Alex Hidalgo, Alex Hidalgo
   * what should always or never be true in your environment
   * which can we programatically alert on
   * and automatically take action on?
-  
+
 ### Sensory Friendly Monitoring: Keeping the Noise Down
 (Quintessence Anx, PagerDuty)
 
@@ -448,9 +451,9 @@ Alex Hidalgo, Alex Hidalgo
 * Re-evaluate redundancy (e.g. slack is down, can we dynamically re-route the notifications to email/etc)
 * Resilient noise builds trust. Silence is artificial (why is there no notifications?)
   * How reliable are your services? How much notification duplication is needed?
-* Keep alerts relevant: For every alert triggered ask: 
+* Keep alerts relevant: For every alert triggered ask:
   * Was it needed? (if not, delete it)
-  * How was the incident resolved? 
+  * How was the incident resolved?
   * Can the solution be automated? (switch what is triggering the alert to the automation?)
   * Is the solution permanent? (condition does not exist anymore, delete it)
   * How urgently was a solution needed? (adjust if too severe, or not severe)
@@ -467,7 +470,7 @@ Alex Hidalgo, Alex Hidalgo
 * SLAs: Service level agreements (contracts, guarantees)
 * SLOs: Service level objectives (tighter threshold so you don't run into breaking SLAs)
 * SLIs: Service level indicators (what signals can we look for, we're functioning but not performant)
-* Example: 
+* Example:
   * SLA: 90% web requests latency <500ms over a month or customer gets money back.
   * SLO: 95% web requests latency <500ms over a month
   * SLI: 95% web requests latency <500ms over a month (what we monitor for)
@@ -490,7 +493,7 @@ Alex Hidalgo, Alex Hidalgo
   * Don't spend it on unplanned incidents (improve mttxs, ensure good monitoring and alerting, latency, errors, traffic, saturation. practice incident response, update documentation and runbooks)
   * Practice chaos engineering (learn about weaknesses in the systems, validate our model of how the system works, prepare for real incidents)
   * Implement feature flags (expose new features/experiments iwth select group of users, limit blast radius of failures, experiment just enough to get usable data)
-* Game days: Focused chaos engineering days. Red/blue team in security. 
+* Game days: Focused chaos engineering days. Red/blue team in security.
 
 
 ### Towards Continuous Auditing
@@ -530,7 +533,7 @@ Alex Hidalgo, Alex Hidalgo
   * Use data to create rich on-demand reports and dashboards: See everything, not just samples, instantly collect without inconvenience, automate audit checks (actually find and visualize outliers for example).
   * Get complete, timely answers to everything auditor can ask: What changed? Business requirement drove the change? Did every change have approval? Did change pass quality gates?
   * High tranparency helps build trust.
-* Question legacy procedures/controls. Collaborate with IT/auditors. 
+* Question legacy procedures/controls. Collaborate with IT/auditors.
 
 
 ### The One (Pipeline)
@@ -582,5 +585,64 @@ Alex Hidalgo, Alex Hidalgo
 
 
 
+### How to Build Better Software with the Scientific Method
+(Dawn Parzych, LaunchDarkly)
+
+* How do you think about solving problems?
+* Growth mindset vs fixed mindset
+* The scientific method:
+  * Isolate particular process
+  * Form a hypothesis
+  * Create an experiment
+  * Produce repeatable results
+  * Share knowledge with others
+* Hypothesis is a prediction that can be tested. Questions lead to a hypothesis.
+* Experiment: Provide learning opportunities.
+* Types of experiments:
+  * Test in production (feature toggles)
+  * Game days
+  * A/B testing
+* Need the right culture - embrace experiments, embrace failure (turn mistakes into ideas and advice)
+  * Think: hypothesis proven or not proven.
+  * Blameless culture: Think, experiment failed, not person failed. Blame negates innovation.
+  * Psychological safety: Show up to work without fear of consequences.
+  * Avoid: bias and gaming the system.
+  * Biases that can impact: Anchoring bias (initial bias), ikea effect (not created here syndrome, we bias things we build ourselves), bias blind spot (we think we're not biased, but everyone are), framing effect (frame in a positive way, constructive feedback).
+  * Define success: Single definition of when an experiment is successful.
+  * Identify and avoid vanity metrics: A number that always goes up and makes us feel good. Can we influence a metric if it goes up/down?  Example: Followers, lines of code, number of incidents closed. McDonalds: Billions of burgers sold (always goes up, we don't know the delta).
+* Good metrics:
+  * Customer-focused (what matters to customers)
+  * Concrete (specific)
+  * Tied to business (what is the impact of this metric to the organisation)
+  * Example: Lower mttr, happier customers, business impact.
+  * Create culture of learning and experimentation
+  * Recognize biases
+  * Don't be swayed by vanity metrics
+  * Use feature-flags to run experiments
 
 
+### Our DevOps Journey is Incomplete without Data
+(BMK Lakshminarayanan, Bank of New Zealand)
+
+* Data management/architecture in devops
+* Problem context:
+  * Manual database deployments continue to be software delivery bottleneck.
+  * Neglecting data in devops/CD has significant business impact.
+  * Continues to slow us down.
+* Yesterdays DBAS: Experts, gatekeepers. (dependence when we have deployments/errors)
+* Types of data:
+  * Systems of record
+  * Systems of intelligence
+  * Systems of engagement
+* Recommendations:
+  * Understand current state (tools, process, flow, roles)
+  * Make work visible (workloads, workloads in pipeline)
+  * Value stream management (new features, tech debt, incidents)
+  * Upskilling (devops, ci/cd, automation)
+  * Investment (education, time, tools, self-service)
+  * Role-play (engineer/dba developer days)
+* Outstanding challenges:
+  * Automated governance
+  * Policies via automation and in pipeline
+  * Compliance as code
+  * Everyone is custodian of data
