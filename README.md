@@ -1,7 +1,7 @@
 
 # All Day Devops 2020 notes
 
-ToC:
+## :monkey_face: ToC:
 
    * [All Day Devops 2020 notes](README.md#all-day-devops-2020-notes)
       * [General](README.md#general)
