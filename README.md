@@ -1,7 +1,12 @@
 
 # All Day Devops 2020 notes
 
+ToC:
+
    * [All Day Devops 2020 notes](README.md#all-day-devops-2020-notes)
+      * [General](README.md#general)
+         * [Structure:](README.md#structure)
+         * [Recorded sessions](README.md#recorded-sessions)
       * [Sessions](README.md#sessions)
          * [Ask me anything keynote: CI/CD](README.md#ask-me-anything-keynote-cicd)
          * [Are we really moving faster? How visualizing flow changed the way we work](README.md#are-we-really-moving-faster-how-visualizing-flow-changed-the-way-we-work)
@@ -25,6 +30,18 @@
          * [How to Build Better Software with the Scientific Method](README.md#how-to-build-better-software-with-the-scientific-method)
          * [Our DevOps Journey is Incomplete without Data](README.md#our-devops-journey-is-incomplete-without-data)
 
+
+## General
+
+### Structure:
+
+* 6 tracks (CI/CD, Cultural transformation, DevSecOps, Government, Modern Infrastructure, and SRE)
+* Each track consists of 26 sessions of 30min each.
+* 6 keynotes of 50min each.
+
+### Recorded sessions
+
+Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
 
 ## Sessions
 
