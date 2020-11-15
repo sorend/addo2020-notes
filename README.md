@@ -4,31 +4,32 @@
 ## :monkey_face: ToC:
 
    * [All Day Devops 2020 notes](README.md#all-day-devops-2020-notes)
+      * [<g-emoji class="g-emoji" alias="monkey_face" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f435.png">🐵</g-emoji> ToC:](README.md#monkey_face-toc)
       * [General](README.md#general)
          * [Structure:](README.md#structure)
          * [Recorded sessions](README.md#recorded-sessions)
       * [Sessions](README.md#sessions)
          * [Ask me anything keynote: CI/CD](README.md#ask-me-anything-keynote-cicd)
-         * [Are we really moving faster? How visualizing flow changed the way we work](README.md#are-we-really-moving-faster-how-visualizing-flow-changed-the-way-we-work)
-         * [DevOps in a highly regulated environment - Aiming high like a Unicorn in skates](README.md#devops-in-a-highly-regulated-environment---aiming-high-like-a-unicorn-in-skates)
-         * [Bullet-Proof Coding : Adaptive Collaboration for Resilience](README.md#bullet-proof-coding--adaptive-collaboration-for-resilience)
-         * [Site Reliability Engineering: Anti-patterns in Everyday Life and What They Teach Us](README.md#site-reliability-engineering-anti-patterns-in-everyday-life-and-what-they-teach-us)
-         * [The Past, Present, and Future of Cloud Native API Gateways](README.md#the-past-present-and-future-of-cloud-native-api-gateways)
-         * [CI and CD for Documentation](README.md#ci-and-cd-for-documentation)
-         * [Your own Kubernetes Operator: Not Only in Go](README.md#your-own-kubernetes-operator-not-only-in-go)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> Are we really moving faster? How visualizing flow changed the way we work](README.md#1-are-we-really-moving-faster-how-visualizing-flow-changed-the-way-we-work)
+         * [<g-emoji class="g-emoji" alias="-1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44e.png">👎</g-emoji> DevOps in a highly regulated environment - Aiming high like a Unicorn in skates](README.md#-1-devops-in-a-highly-regulated-environment---aiming-high-like-a-unicorn-in-skates)
+         * [<g-emoji class="g-emoji" alias="-1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44e.png">👎</g-emoji> Bullet-Proof Coding : Adaptive Collaboration for Resilience](README.md#-1-bullet-proof-coding--adaptive-collaboration-for-resilience)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> Site Reliability Engineering: Anti-patterns in Everyday Life and What They Teach Us](README.md#1-site-reliability-engineering-anti-patterns-in-everyday-life-and-what-they-teach-us)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> The Past, Present, and Future of Cloud Native API Gateways](README.md#1-the-past-present-and-future-of-cloud-native-api-gateways)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> CI and CD for Documentation](README.md#1-ci-and-cd-for-documentation)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> Your own Kubernetes Operator: Not Only in Go](README.md#1-your-own-kubernetes-operator-not-only-in-go)
          * [Serverless databases: the good, the bad, and the ugly](README.md#serverless-databases-the-good-the-bad-and-the-ugly)
-         * [Service Mesh Past, Present, and Future with Envoy Proxy and WebAssembly](README.md#service-mesh-past-present-and-future-with-envoy-proxy-and-webassembly)
-         * [I Have an SLO. Now What?](README.md#i-have-an-slo-now-what)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> Service Mesh Past, Present, and Future with Envoy Proxy and WebAssembly](README.md#1-service-mesh-past-present-and-future-with-envoy-proxy-and-webassembly)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> I Have an SLO. Now What?](README.md#1-i-have-an-slo-now-what)
          * [Fast &amp; Simple: Observing Code &amp; Infra Deployments At Honeycomb](README.md#fast--simple-observing-code--infra-deployments-at-honeycomb)
-         * [Continuous Delivery for Machine Learning](README.md#continuous-delivery-for-machine-learning)
-         * [Six Categories of Monitoring in the DevOps Pipeline](README.md#six-categories-of-monitoring-in-the-devops-pipeline)
-         * [How to Scale Your Company's Security](README.md#how-to-scale-your-companys-security)
-         * [Sensory Friendly Monitoring: Keeping the Noise Down](README.md#sensory-friendly-monitoring-keeping-the-noise-down)
-         * [SLO's: You're missing the point!](README.md#slos-youre-missing-the-point)
-         * [Towards Continuous Auditing](README.md#towards-continuous-auditing)
-         * [The One (Pipeline)](README.md#the-one-pipeline)
+         * [<g-emoji class="g-emoji" alias="-1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44e.png">👎</g-emoji> Continuous Delivery for Machine Learning](README.md#-1-continuous-delivery-for-machine-learning)
+         * [<g-emoji class="g-emoji" alias="-1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44e.png">👎</g-emoji> Six Categories of Monitoring in the DevOps Pipeline](README.md#-1-six-categories-of-monitoring-in-the-devops-pipeline)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> How to Scale Your Company's Security](README.md#1-how-to-scale-your-companys-security)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> Sensory Friendly Monitoring: Keeping the Noise Down](README.md#1-sensory-friendly-monitoring-keeping-the-noise-down)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> SLO's: You're missing the point!](README.md#1-slos-youre-missing-the-point)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> Towards Continuous Auditing](README.md#1-towards-continuous-auditing)
+         * [<g-emoji class="g-emoji" alias=" 1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44d.png">👍</g-emoji> The One (Pipeline)](README.md#1-the-one-pipeline)
          * [How to Build Better Software with the Scientific Method](README.md#how-to-build-better-software-with-the-scientific-method)
-         * [Our DevOps Journey is Incomplete without Data](README.md#our-devops-journey-is-incomplete-without-data)
+         * [<g-emoji class="g-emoji" alias="-1" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f44e.png">👎</g-emoji> Our DevOps Journey is Incomplete without Data](README.md#-1-our-devops-journey-is-incomplete-without-data)
 
 
 ## General
@@ -60,7 +61,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
 * Champions are required, to drive progress.
 * Set a goal for yourself. Start small. Measure everything. You have to do it. Build community around it. Make it public (advertise it).
 
-### Are we really moving faster? How visualizing flow changed the way we work
+### :+1: Are we really moving faster? How visualizing flow changed the way we work
 (Roman Pickl, Elektrobit)
 
 * Are we really moving faster?  AFTER the journey to K8s with monitoring.
@@ -80,7 +81,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
 * Local optimization and the urgency paradox (measure the full value-stream, not only the development section where things are pushed to go fast).
 * Value vs non-value adding activities. Goal eliminate, optimize. Use value-stream mapping technique.
 
-### DevOps in a highly regulated environment - Aiming high like a Unicorn in skates
+### :-1: DevOps in a highly regulated environment - Aiming high like a Unicorn in skates
 (Marc Cluet, Ukon Cherry Ltd)
 
 * Governance, risk and control: Approval process crafted to ensure compliance.
@@ -104,8 +105,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
 
 
 
-
-### Bullet-Proof Coding : Adaptive Collaboration for Resilience
+### :-1: Bullet-Proof Coding : Adaptive Collaboration for Resilience
 (Anton Weiss, Otomato Software)
 
 * Solitary coding != collaborative coding.
@@ -124,7 +124,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
 * Manage stress.
 
 
-### Site Reliability Engineering: Anti-patterns in Everyday Life and What They Teach Us
+### :+1: Site Reliability Engineering: Anti-patterns in Everyday Life and What They Teach Us
 (Jennifer Petoff, Google Ireland)
 
 * SRE patterns:
@@ -152,7 +152,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
   * It's never human error
 
 
-### The Past, Present, and Future of Cloud Native API Gateways
+### :+1: The Past, Present, and Future of Cloud Native API Gateways
 (Daniel Bryant, Ambassador Labs)
 
 * Edge: Boundary between data center and your users.
@@ -191,7 +191,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
   * extend existing gateway (k8s operators integrate)
   * deploy an in-cluster edge stack.
 
-### CI and CD for Documentation
+### :+1: CI and CD for Documentation
 (Olivier Jacques & Laurent Gil, DXC Technology)
 
 * The quest for great documentation.
@@ -222,7 +222,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
 * Hosting: Github pages, Gitlab pages, Netlify, S3 bucket
 * Making it easy: Github templates, Gitlab project templates
 
-### Your own Kubernetes Operator: Not Only in Go
+### :+1: Your own Kubernetes Operator: Not Only in Go
 (Nicolas Fränkel, Hazelcast)
 
 * Controllers: Control loops that modifies state.
@@ -248,7 +248,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
 * Pay for what you need (bad queries -> you pay more until you fix the issue)
 
 
-### Service Mesh Past, Present, and Future with Envoy Proxy and WebAssembly
+### :+1: Service Mesh Past, Present, and Future with Envoy Proxy and WebAssembly
 (Idit Levine, Solo.io)
 
 * From monolity to microservices -> the network is the queen of the cloud.
@@ -272,7 +272,7 @@ Link to all sessions: https://content.sonatype.com/l/addo-2020-on-demand
   * KISS: Source -> Policy rule -> Destination
   * Standardized: Service mesh interface (SMI)
 
-### I Have an SLO. Now What?
+### :+1: I Have an SLO. Now What?
 Alex Hidalgo, Alex Hidalgo
 
 * What to do with all the data we have? (Logs, metrics, traces) Setup SLOs
@@ -350,7 +350,7 @@ Alex Hidalgo, Alex Hidalgo
 * Sleep easily at night is the top priority in the company
 
 
-### Continuous Delivery for Machine Learning
+### :-1: Continuous Delivery for Machine Learning
 (Adarsh Shah, Consultant)
 
 * ML code is a small part of the machine learning application system (feature extraction, analaysis, etc etc)
@@ -365,7 +365,7 @@ Alex Hidalgo, Alex Hidalgo
   * Production deployment: CI (application code), smoke tests
 
 
-### Six Categories of Monitoring in the DevOps Pipeline
+### :-1: Six Categories of Monitoring in the DevOps Pipeline
 (Hasan Yasar, CMU)
 
 * metrics logs reports -> data
@@ -400,7 +400,7 @@ Alex Hidalgo, Alex Hidalgo
 * security: vuln monitoring
 
 
-### How to Scale Your Company's Security
+### :+1: How to Scale Your Company's Security
 (Clint Gibler, r2c)
 
 * Distilled insights from surveying lots of companies
@@ -436,7 +436,7 @@ Alex Hidalgo, Alex Hidalgo
   * which can we programatically alert on
   * and automatically take action on?
 
-### Sensory Friendly Monitoring: Keeping the Noise Down
+### :+1: Sensory Friendly Monitoring: Keeping the Noise Down
 (Quintessence Anx, PagerDuty)
 
 * Lots of notifications, we feel overloaded. In own life, put headphones on.
@@ -480,7 +480,7 @@ Alex Hidalgo, Alex Hidalgo
   * Response-SLAs depending on media (email, etc)
 
 
-### SLO's: You're missing the point!
+### :+1: SLO's: You're missing the point!
 (Jason Yee, Gremlin)
 
 * Execs say company depend on innovation, most innovations fail, how to successfully innovate?
@@ -513,7 +513,7 @@ Alex Hidalgo, Alex Hidalgo
 * Game days: Focused chaos engineering days. Red/blue team in security.
 
 
-### Towards Continuous Auditing
+### :+1: Towards Continuous Auditing
 (Dan Petit, ServiceMaster)
 
 * How audits work: Upfront, revisited periodically. Define controls, processes, policies, procedures etc in the organisation.
@@ -553,7 +553,7 @@ Alex Hidalgo, Alex Hidalgo
 * Question legacy procedures/controls. Collaborate with IT/auditors.
 
 
-### The One (Pipeline)
+### :+1: The One (Pipeline)
 (German Rodriguez, H-E-B)
 
 * Before:
@@ -638,7 +638,7 @@ Alex Hidalgo, Alex Hidalgo
   * Use feature-flags to run experiments
 
 
-### Our DevOps Journey is Incomplete without Data
+### :-1: Our DevOps Journey is Incomplete without Data
 (BMK Lakshminarayanan, Bank of New Zealand)
 
 * Data management/architecture in devops
