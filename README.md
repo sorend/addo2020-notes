@@ -536,6 +536,50 @@ Alex Hidalgo, Alex Hidalgo
 ### The One (Pipeline)
 (German Rodriguez, H-E-B)
 
+* Before:
+  * UI-based jobs, plugin sprawl, jenkins sprawl, global ssh target configurations. groovy pipelines solve the same problems over and over.
+  * Pipeline reconditioning was a primary service.
+  * Long painful experience to support teams with their own Jenkins configurations
+  * Common job steps:
+    * Compile and build (gradle/npm), package (rpm), publish (nexus), deploy (ssh)
+    * Everyone doing some variation of the same steps
+* 1st gen:
+  * Groovy pipeline template
+  * Complementary to existing jobs
+  * A set of files to copy into your project
+  * Instructions to create pipeline jobs
+  * Popular, teams not maintaining own jenkins, faster onboarding (metrics for first deployment)
+  * Drifted over time (not easy to distribute updates, teams would make own modifications)
+  * Complex initial setup (credentials)
+* 2nd gen:
+  * Opinionated (very) central pipeline generator
+  * Run a (meta) pipeline to create project pipeline
+  * One way to run, all tokens preconfigured
+  * k8s targets only
+  * very strict, no room for deviation
+  * Learnings: Low acceptance (too strict), Good learnings on k8s depoyments, templates, etc...
+* 3rd gen:
+  * Shared Jenkins pipeline script inner sourced.
+  * Controlled by parameters and yaml file in the repository
+  * Multiple languages, packaging and deployment options supported
+  * Ability to optionally tag git repos back (from pipeline)
+  * pipeline versioned, stable+ beta tags
+  * all associated tools already integrated
+  * Expansions: (Security scans, Slack integration, Multiple-step builds, Integration with custom PaaS offering (managed deployment setup, create SA, secrets, etc in the environment and save in pipeline)
+  * More global view of what's going on because all builds/deployments are done through the same pipeline
+  * Centralized instrumentation: dashboards for builds and deployments.
+  * Learnings: High acceptance, low drift (central time owns the code), self-service is very easy for teams to setup new pipelines/builds, new build tasks are easy to integrate, teams helps contributing to the pipeline through PRs, flexible but still embeds best practice, (Jenkins problem: Method too large -- a pipeline is a single method in Java), Jenkins node and memory management is challenging with lots of pipelines, Pipeline starts to look like Gitlab/CircleCI declarative models.
+* 4th gen:
+  * Refactor, simpler codebase (engine model)
+  * Port to other CI tools (e.g. Gitlab CI, GithubActions), take advantage of native features.
+  * Looking into Waypoint model as common platform.
+* Long term learnings:
+  * Shared pipelines reduce time to deployment, reduce tech debt, provide insights.
+  * Flexible and transparent creates success
+  * Best practice and innovation can be accomplished, while abstracting common concerns.
+  * Unknown unknowns reduce (only one place to look)
+  * Cognitive load on teams reduced.
+
 
 
 
